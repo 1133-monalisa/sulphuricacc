@@ -204,15 +204,21 @@ export default function FAQ() {
                     >
                       <div className="flex flex-col md:flex-row border-t border-blue-700/30">
                         {/* Answer */}
+                       
                         <div className="md:w-2/3 p-6 bg-blue-900/20">
                           <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.2, duration: 0.5 }}
                           >
-                            <p className="text-lg leading-relaxed font-light text-gray-100">
-                              {faq.answer}
-                            </p>
+                            {faq.answer.split("\n").map((line, index) => (
+                              <p
+                                key={index}
+                                className="text-lg leading-relaxed font-light text-gray-100 mb-2"
+                              >
+                                {line}
+                              </p>
+                            ))}
 
                             {/* Added fact badges - only show for first FAQ */}
                             {faq.id === data.faqs[0].id && (

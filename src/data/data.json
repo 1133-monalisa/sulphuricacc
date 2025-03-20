@@ -65,32 +65,32 @@
   "faqs": [
     {
       "id": 1,
-      "question": "What is the Contact Process?",
-      "answer": "The Contact Process is an industrial method for producing sulfuric acid. It involves the catalytic oxidation of sulfur dioxide (SO₂) to sulfur trioxide (SO₃), which is then absorbed in water to form H₂SO₄. It’s widely used because it’s efficient and produces high-purity acid",
+      "question": "Why is it called the Contact Process?",
+      "answer": "The name comes from the “contact” between the reactant gases (SO₂ and O₂) and the solid catalyst surface, where the reaction occurs.",
       "image": "https://d10lpgp6xz60nq.cloudfront.net/physics_images/U_LIK_SP_CHE_XII_C07_E02_021_S01.png"
     },
     {
       "id": 2,
-      "question": "Why is it called the Contact Process?",
-      "answer": "The name comes from the “contact” between the reactant gases (SO₂ and O₂) and the solid catalyst surface, where the reaction occurs.",
+      "question": "What are the optimum conditions for the Contact Process?",
+      "answer": "Temperature: Around 450°C \n Pressure: 1-2 atmospheres\nCatalyst: Vanadium(V) oxide (V₂O₅)",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkkGQynLk6fYp-VA2b7kP5iRpS9uMsmbGTHw&s"
     },
     {
       "id": 3,
-      "question": "How does pressure affect the Contact Process?",
-      "answer": "Even though higher pressure favors SO₃ production, only 2 atm is used because higher pressures would make the process too expensive.",
+      "question": "In the contact process, SO₃ vapors are absorbed in concentrated H₂SO₄ and not in water to obtain H₂SO₄. Why?",
+      "answer": "If SO₃ is directly absorbed in water, it forms a highly exothermic reaction, producing a fine mist of sulfuric acid. This mist is difficult to condense and handle, creating environmental and  hazardious pollutants ",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT19CuVU-pyc7X1LyV9M0qEy9HRUQe9vijbDg&s"
     },
     {
       "id": 4,
-      "question": "Why is sulfuric acid important in car batteries?",
-      "answer": "It’s the key electrolyte in lead-acid batteries, allowing the flow of electric charge. Without it, your car wouldn’t start on a cold morning!",
+      "question": "What is oleum, and how is it used in the process?",
+      "answer": "Oleum is a solution of sulfur trioxide in sulfuric acid and is used to produce more sulfuric acid by diluting it with water.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF7-490sXjurRLNZwmzJOYDiRAET1QDuPpXsPBwnFYR3aKWpC01qwDOrHttR3yx3lwP7M&usqp=CAUg"
     },
     {
       "id": 5,
-      "question": "How pure is Contact Process sulfuric acid for space?",
-      "answer": "99.9% pure H₂SO₄—perfect for space mission batteries Ultra-pure H₂SO₄, made with advanced purification, is used in rocket fuel and satellite components due to its reliability",
+      "question": "Why is the reaction between SO₂ and O₂ carried out in multiple stages?",
+      "answer": "To ensure high conversion efficiency while managing the heat released by the exothermic reaction.",
       "image": "https://media.kasperskydaily.com/wp-content/uploads/sites/85/2021/04/20043255/232_green_rocket_fuel_header-1.jpg"
     },
     {
