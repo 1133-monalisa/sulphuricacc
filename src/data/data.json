@@ -1,126 +1,115 @@
 {
-  "facts": [
+ "facts": [
     {
       "id": 1,
-      "title": "Strong Acid Properties",
-      "description": "Sulfuric acid is a highly corrosive strong acid with a pH less than 1.",
+      "title": "The 'Oil of Vitriol' Nickname",
+      "description": "Historically, sulfuric acid was called 'oil of vitriol' because it was made by heating metal sulfates like iron sulfate. Medieval alchemists thought the name sounded cool.",
       "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
     },
     {
       "id": 2,
-      "title": "Industrial Uses",
-      "description": "It’s widely used in fertilizer production and battery manufacturing.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+      "title": "It’s Thirsty as Heck",
+      "description": "Sulfuric acid is highly hygroscopic, meaning it aggressively absorbs water from everything—even the air. It can dehydrate sugar into a foamy tower of carbon.",
+      "image": "https://cdn.qwenlm.ai/output/c6f14484-f70a-466d-b943-c8f69e53f7c9/t2i/8eaa0ebb-371f-4f56-84e3-7a98f9927eaa/5971ede9-ddbc-4a09-94d6-f9600235c598.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzZmMTQ0ODQtZjcwYS00NjZkLWI5NDMtYzhmNjllNTNmN2M5IiwicmVzb3VyY2VfaWQiOiI1OTcxZWRlOS1kZGJjLTRhMDktOTRkNi1mOTYwMDIzNWM1OTgiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.0c69M2yvCJYGmD62zhsfi0ARTf5vZIRAvOYBRnuqKv8"
     },
     {
       "id": 3,
-      "title": "King of Chemicals",
-      "description": "Sulfuric acid is often called the 'King of Chemicals' because of its vast industrial applications.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+      "title": "Burns Without a Flame",
+      "description": "Sulfuric acid doesn’t need fire to cause damage. When it contacts skin or cloth, it reacts with water so violently that it causes severe chemical burns.",
+      "image": "https://www.realclearscience.com/images/wysiwyg_images/Sulphuric_acid_on_a_piece_of_towel.JPG"
     },
     {
       "id": 4,
-      "title": "Dehydrating Agent",
-      "description": "It can remove water from organic compounds, turning sugar into carbon instantly.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+      "title": "Venus’s Favorite Juice",
+      "description": "The clouds on Venus contain sulfuric acid droplets. If you ever visit (you won’t), an umbrella wouldn’t help—it would just dissolve.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH8CyXzJd_brXKsnESW4ZqA5COJbo-PdgW0Q&s"
     },
     {
       "id": 5,
-      "title": "Highly Exothermic Reaction",
-      "description": "Mixing sulfuric acid with water releases a large amount of heat, which can cause explosions if done improperly.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+      "title": "A Smelly Origin Story",
+      "description": "Sulfuric acid’s discovery links back to burning sulfur, which smells like rotten eggs. Ancient chemists probably thought, 'Let’s make something useful out of this!'",
+      "image": "https://d2cbg94ubxgsnp.cloudfront.net/Pictures/480xany/2/7/2/135272_Fumarola_Vulcano.jpg"
     },
     {
       "id": 6,
-      "title": "Essential for Petroleum Refining",
-      "description": "Sulfuric acid plays a key role in refining crude oil into gasoline and other fuels.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+      "title": "King of Chemicals",
+      "description": "Sulfuric acid is called the 'King of Chemicals' because of its vast industrial applications, from fertilizers to petroleum refining.",
+      "image": "https://www.bioscience.com.pk/media/zoo/images/445_d709db51696f2400e61dd21011aa1975.jpg"
     },
     {
       "id": 7,
       "title": "Used in Cleaning Metals",
-      "description": "It is used in metal processing to remove rust and oxidation from iron and steel.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+      "description": "It is used in metal processing to remove rust and oxidation from iron and steel, making surfaces cleaner and more reactive for further treatment.",
+      "image": "https://northernchemicals.com.au/cdn/shop/products/sulphuric-acid-98-acid-northern-chemicals-1l-452402_1024x1024.jpg?v=1738806987"
     },
     {
       "id": 8,
       "title": "Vital for Paper Industry",
-      "description": "Sulfuric acid is used in the paper-making process to help break down wood fibers.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+      "description": "Sulfuric acid plays a role in breaking down wood fibers during the paper-making process, making it an essential part of the industry.",
+      "image": "https://cdn.qwenlm.ai/output/c6f14484-f70a-466d-b943-c8f69e53f7c9/t2i/fa5416d7-a195-4e31-b47c-cec5b0f99ac4/53ea8bf1-c392-4682-875f-06b5663e9cbf.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzZmMTQ0ODQtZjcwYS00NjZkLWI5NDMtYzhmNjllNTNmN2M5IiwicmVzb3VyY2VfaWQiOiI1M2VhOGJmMS1jMzkyLTQ2ODItODc1Zi0wNmI1NjYzZTljYmYiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.9IOuZJxW2YVdUyuV7E8Nvg4un6NxOOIRzauBunqyxdA"
     },
     {
       "id": 9,
       "title": "Naturally Occurs in Acid Rain",
-      "description": "Small amounts of sulfuric acid are formed in the atmosphere due to sulfur dioxide emissions, contributing to acid rain.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+      "description": "Small amounts of sulfuric acid form in the atmosphere due to sulfur dioxide emissions, contributing to acid rain and environmental damage.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8ZPL8KptqR3lgLwxCyxjBFpi4xLwYnmRBgw&s"
     },
     {
       "id": 10,
       "title": "Battery Acid",
-      "description": "It is the key ingredient in lead-acid batteries used in cars and backup power systems.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+      "description": "Sulfuric acid is the key ingredient in lead-acid batteries used in vehicles and backup power systems, making it crucial for energy storage.",
+      "image": "https://www.vizagchemical.com/sites/default/files/field/image/battery-safety-767x578.png"
     }
-  ],
+]
+,
   "faqs": [
     {
       "id": 1,
-      "question": "What is sulfuric acid?",
-      "answer": "Sulfuric acid (H₂SO₄) is a strong mineral acid used in various industries.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+      "question": "What is the Contact Process?",
+      "answer": "The Contact Process is an industrial method for producing sulfuric acid. It involves the catalytic oxidation of sulfur dioxide (SO₂) to sulfur trioxide (SO₃), which is then absorbed in water to form H₂SO₄. It’s widely used because it’s efficient and produces high-purity acid",
+      "image": "https://d10lpgp6xz60nq.cloudfront.net/physics_images/U_LIK_SP_CHE_XII_C07_E02_021_S01.png"
     },
     {
       "id": 2,
-      "question": "Is it dangerous?",
-      "answer": "Yes, it’s highly corrosive and requires careful handling.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+      "question": "Why is it called the Contact Process?",
+      "answer": "The name comes from the “contact” between the reactant gases (SO₂ and O₂) and the solid catalyst surface, where the reaction occurs.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkkGQynLk6fYp-VA2b7kP5iRpS9uMsmbGTHw&s"
     },
     {
       "id": 3,
-      "question": "What is sulfuric acid used for?",
-      "answer": "It is used in battery manufacturing, fertilizer production, petroleum refining, and chemical processing.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+      "question": "How does pressure affect the Contact Process?",
+      "answer": "Even though higher pressure favors SO₃ production, only 2 atm is used because higher pressures would make the process too expensive.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT19CuVU-pyc7X1LyV9M0qEy9HRUQe9vijbDg&s"
     },
     {
       "id": 4,
-      "question": "Can sulfuric acid burn skin?",
-      "answer": "Yes, it causes severe burns on contact with skin and requires immediate washing with water.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+      "question": "Why is sulfuric acid important in car batteries?",
+      "answer": "It’s the key electrolyte in lead-acid batteries, allowing the flow of electric charge. Without it, your car wouldn’t start on a cold morning!",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF7-490sXjurRLNZwmzJOYDiRAET1QDuPpXsPBwnFYR3aKWpC01qwDOrHttR3yx3lwP7M&usqp=CAUg"
     },
     {
       "id": 5,
-      "question": "Is sulfuric acid found in nature?",
-      "answer": "Yes, small amounts occur in acid rain and volcanic emissions.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+      "question": "How pure is Contact Process sulfuric acid for space?",
+      "answer": "99.9% pure H₂SO₄—perfect for space mission batteries Ultra-pure H₂SO₄, made with advanced purification, is used in rocket fuel and satellite components due to its reliability",
+      "image": "https://media.kasperskydaily.com/wp-content/uploads/sites/85/2021/04/20043255/232_green_rocket_fuel_header-1.jpg"
     },
     {
       "id": 6,
-      "question": "How is sulfuric acid made?",
-      "answer": "It is produced by oxidizing sulfur dioxide (SO₂) to sulfur trioxide (SO₃), then dissolving it in water.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+      "question": " What happens if you add water to concentrated sulfuric acid?",
+      "answer": " BOOM! The reaction is highly exothermic (heat-releasing), and can cause splattering or even explosions. Instead, always add acid to water, never the other way around!",
+      "image": "https://www.thoughtco.com/thmb/_Q5wMF7ogGhzG_AuPK1iZEVseoE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/acid-test-84498113-5782c5313df78c1e1f4e3c3d.jpg"
     },
     {
       "id": 7,
-      "question": "Why is sulfuric acid called the 'King of Chemicals'?",
-      "answer": "Because it is one of the most widely used industrial chemicals and is essential for many industries.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+      "question": "Why do Venus’s clouds contain sulfuric acid?",
+      "answer": "The planet's atmosphere has a lot of sulfur dioxide, which reacts with sunlight and oxygen to form sulfuric acid droplets. If you ever visit (which you won’t), an umbrella wouldn’t help—it would just dissolve!",
+      "image": "https://scx1.b-cdn.net/csz/news/800a/2016/whatisthewea.jpg"
     },
     {
       "id": 8,
-      "question": "Can sulfuric acid dissolve metals?",
-      "answer": "Yes, it reacts with many metals, releasing hydrogen gas and forming metal sulfates.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
-    },
-    {
-      "id": 9,
-      "question": "What happens if sulfuric acid is mixed with water?",
-      "answer": "It releases a large amount of heat, which can cause splattering. Always add acid to water, not the other way around.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
-    },
-    {
-      "id": 10,
-      "question": "Is sulfuric acid used in medicine?",
-      "answer": "Not directly, but it is used in the production of some pharmaceuticals and chemicals for medical use.",
-      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
-    }
+      "question": " What happens if the Contact Process is done at very high temperatures?",
+      "answer": "The reaction is exothermic, so too much heat actually reduces the yield by shifting equilibrium backward",
+      "image": "https://www.chemguide.co.uk/physical/equilibria/contactflow.gif"
+    }   
   ]
 }
