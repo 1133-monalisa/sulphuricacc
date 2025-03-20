@@ -66,7 +66,7 @@
     {
       "id": 1,
       "question": "Why is it called the Contact Process?",
-      "answer": "The name comes from the “contact” between the reactant gases (SO₂ and O₂) and the solid catalyst surface, where the reaction occurs.",
+      "answer": "The Contact process, its name is mainly from the fact that the conversion of sulphur dioxide to sulphur trioxide is carried out in contact with the surface of the catalyst.",
       "image": "https://d10lpgp6xz60nq.cloudfront.net/physics_images/U_LIK_SP_CHE_XII_C07_E02_021_S01.png"
     },
     {
@@ -85,31 +85,14 @@
       "id": 4,
       "question": "What is oleum, and how is it used in the process?",
       "answer": "Oleum is a solution of sulfur trioxide in sulfuric acid and is used to produce more sulfuric acid by diluting it with water.",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF7-490sXjurRLNZwmzJOYDiRAET1QDuPpXsPBwnFYR3aKWpC01qwDOrHttR3yx3lwP7M&usqp=CAUg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Oleum_fuming.jpg/640px-Oleum_fuming.jpg"
     },
     {
       "id": 5,
       "question": "Why is the reaction between SO₂ and O₂ carried out in multiple stages?",
       "answer": "To ensure high conversion efficiency while managing the heat released by the exothermic reaction.",
-      "image": "https://media.kasperskydaily.com/wp-content/uploads/sites/85/2021/04/20043255/232_green_rocket_fuel_header-1.jpg"
-    },
-    {
-      "id": 6,
-      "question": " What happens if you add water to concentrated sulfuric acid?",
-      "answer": " BOOM! The reaction is highly exothermic (heat-releasing), and can cause splattering or even explosions. Instead, always add acid to water, never the other way around!",
       "image": "https://www.thoughtco.com/thmb/_Q5wMF7ogGhzG_AuPK1iZEVseoE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/acid-test-84498113-5782c5313df78c1e1f4e3c3d.jpg"
-    },
-    {
-      "id": 7,
-      "question": "Why do Venus’s clouds contain sulfuric acid?",
-      "answer": "The planet's atmosphere has a lot of sulfur dioxide, which reacts with sunlight and oxygen to form sulfuric acid droplets. If you ever visit (which you won’t), an umbrella wouldn’t help—it would just dissolve!",
-      "image": "https://scx1.b-cdn.net/csz/news/800a/2016/whatisthewea.jpg"
-    },
-    {
-      "id": 8,
-      "question": " What happens if the Contact Process is done at very high temperatures?",
-      "answer": "The reaction is exothermic, so too much heat actually reduces the yield by shifting equilibrium backward",
-      "image": "https://www.chemguide.co.uk/physical/equilibria/contactflow.gif"
-    }   
+    }
+   
   ]
 }
