@@ -214,18 +214,20 @@ export default function FAQ() {
                               {faq.answer}
                             </p>
 
-                            {/* Added fact badges */}
-                            <div className="mt-6 flex flex-wrap gap-3">
-                              <span className="inline-block bg-blue-800/50 backdrop-blur-sm text-blue-200 text-sm font-medium px-3 py-1 rounded-full border border-blue-700/30">
-                                Molecular Weight: 98.079 g/mol
-                              </span>
-                              <span className="inline-block bg-indigo-800/50 backdrop-blur-sm text-indigo-200 text-sm font-medium px-3 py-1 rounded-full border border-indigo-700/30">
-                                Density: 1.83 g/cm³
-                              </span>
-                              <span className="inline-block bg-purple-800/50 backdrop-blur-sm text-purple-200 text-sm font-medium px-3 py-1 rounded-full border border-purple-700/30">
-                                Boiling Point: 337°C
-                              </span>
-                            </div>
+                            {/* Added fact badges - only show for first FAQ */}
+                            {faq.id === data.faqs[0].id && (
+                              <div className="mt-6 flex flex-wrap gap-3">
+                                <span className="inline-block bg-blue-800/50 backdrop-blur-sm text-blue-200 text-sm font-medium px-3 py-1 rounded-full border border-blue-700/30">
+                                  Molecular Weight: 98.079 g/mol
+                                </span>
+                                <span className="inline-block bg-indigo-800/50 backdrop-blur-sm text-indigo-200 text-sm font-medium px-3 py-1 rounded-full border border-indigo-700/30">
+                                  Density: 1.83 g/cm³
+                                </span>
+                                <span className="inline-block bg-purple-800/50 backdrop-blur-sm text-purple-200 text-sm font-medium px-3 py-1 rounded-full border border-purple-700/30">
+                                  Boiling Point: 337°C
+                                </span>
+                              </div>
+                            )}
                           </motion.div>
                         </div>
 
