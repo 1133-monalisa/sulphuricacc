@@ -1,103 +1,211 @@
-import Image from "next/image";
+"use client";
+import data from "@/data/data.json";
+import { motion } from "framer-motion";
+import Link from "next/link";
+import { Button } from "../components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "../components/ui/card";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  const previewFacts = data.facts.slice(0, 2);
+  const previewFaqs = data.faqs.slice(0, 2);
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+      },
+    },
+  };
+
+  const itemVariants = {
+    hidden: { y: 20, opacity: 0, scale: 0.95 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      scale: 1,
+      transition: { duration: 0.5, type: "spring", stiffness: 100 },
+    },
+    hover: {
+      scale: 1.03,
+      transition: { duration: 0.3, ease: "easeOut" },
+    },
+  };
+
+  const glowVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 0.2,
+      transition: { duration: 0.5, yoyo: Infinity },
+    },
+  };
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-950 to-indigo-950 text-gray-100 overflow-hidden">
+
+      {/* Main Content */}
+      <div className="mx-auto px-20 py-10">
+        {/* Facts Section */}
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-100px" }}
+          variants={containerVariants}
+          className="mb-16"
         >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center text-blue-100 bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">
+            Interesting Facts
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {previewFacts.map((fact) => (
+              <motion.div
+                key={fact.id}
+                variants={itemVariants}
+                whileHover="hover"
+                className="group"
+              >
+                <Card className="h-full bg-gradient-to-br from-gray-800/90 to-blue-900/90 backdrop-blur-md border border-blue-700/30 hover:shadow-xl transition-all duration-300 rounded-xl overflow-hidden">
+                  <CardHeader className="p-0">
+                    <div className="relative">
+                      <img
+                        src={fact.image}
+                        alt={fact.title}
+                        className="w-full h-48 object-cover rounded-t-xl"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-blue-900/50 to-transparent rounded-t-xl pointer-events-none" />
+                    </div>
+                  </CardHeader>
+                  <CardContent className="pt-6 px-5">
+                    <CardTitle className="text-xl mb-2 text-blue-100 group-hover:text-blue-50 transition-colors duration-300">
+                      {fact.title}
+                    </CardTitle>
+                    <p className="text-gray-100 font-light leading-relaxed">
+                      {fact.description}
+                    </p>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            ))}
+            <motion.div variants={itemVariants} whileHover="hover">
+              <Card className="h-full bg-gradient-to-br from-blue-900/80 to-indigo-900/80 backdrop-blur-md border-dashed border-blue-500/50 hover:shadow-xl transition-all duration-300 rounded-xl">
+                <CardContent className="flex flex-col items-center justify-center h-full p-6 text-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="48"
+                    height="48"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="text-blue-400 mb-4 group-hover:text-indigo-300 transition-colors duration-300"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="16"></line>
+                    <line x1="8" y1="12" x2="16" y2="12"></line>
+                  </svg>
+                  <h3 className="text-xl font-bold text-blue-100 mb-2 group-hover:text-blue-50">
+                    Discover More Facts
+                  </h3>
+                  <p className="text-gray-100 font-light mb-4">
+                    Explore dozens of fascinating details about sulfuric acid
+                  </p>
+                  <Button
+                    asChild
+                    className="bg-blue-500 hover:bg-blue-600 text-white rounded-full px-6 py-2 transform hover:scale-105 transition-all duration-300"
+                  >
+                    <Link href="/facts">View All Facts</Link>
+                  </Button>
+                </CardContent>
+              </Card>
+            </motion.div>
+          </div>
+        </motion.div>
+
+        {/* FAQs Section */}
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-100px" }}
+          variants={containerVariants}
         >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center text-blue-100 bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">
+            Frequently Asked Questions
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {previewFaqs.map((faq) => (
+              <motion.div
+                key={faq.id}
+                variants={itemVariants}
+                whileHover="hover"
+                className="group"
+              >
+                <Card className="h-full bg-gradient-to-br from-gray-800/90 to-blue-900/90 backdrop-blur-md border border-blue-700/30 hover:shadow-xl transition-all duration-300 rounded-xl overflow-hidden">
+                  <CardHeader className="p-0">
+                    <div className="relative">
+                      <img
+                        src={faq.image}
+                        alt={faq.question}
+                        className="w-full h-48 object-cover rounded-t-xl"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-blue-900/50 to-transparent rounded-t-xl pointer-events-none" />
+                    </div>
+                  </CardHeader>
+                  <CardContent className="pt-6 px-5">
+                    <CardTitle className="text-xl mb-2 text-blue-100 group-hover:text-blue-50 transition-colors duration-300">
+                      {faq.question}
+                    </CardTitle>
+                    <p className="text-gray-100 font-light leading-relaxed">
+                      {faq.answer}
+                    </p>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            ))}
+            <motion.div variants={itemVariants} whileHover="hover">
+              <Card className="h-full bg-gradient-to-br from-blue-900/80 to-indigo-900/80 backdrop-blur-md border-dashed border-blue-500/50 hover:shadow-xl transition-all duration-300 rounded-xl">
+                <CardContent className="flex flex-col items-center justify-center h-full p-6 text-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="48"
+                    height="48"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="text-blue-400 mb-4 group-hover:text-indigo-300 transition-colors duration-300"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="16"></line>
+                    <line x1="8" y1="12" x2="16" y2="12"></line>
+                  </svg>
+                  <h3 className="text-xl font-bold text-blue-100 mb-2 group-hover:text-blue-50">
+                    Explore More Questions
+                  </h3>
+                  <p className="text-gray-100 font-light mb-4">
+                    Find answers to more questions about sulfuric acid
+                  </p>
+                  <Button
+                    asChild
+                    className="bg-blue-500 hover:bg-blue-600 text-white rounded-full px-6 py-2 transform hover:scale-105 transition-all duration-300"
+                  >
+                    <Link href="/faq">View All FAQs</Link>
+                  </Button>
+                </CardContent>
+              </Card>
+            </motion.div>
+          </div>
+        </motion.div>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,126 @@
+{
+  "facts": [
+    {
+      "id": 1,
+      "title": "Strong Acid Properties",
+      "description": "Sulfuric acid is a highly corrosive strong acid with a pH less than 1.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    },
+    {
+      "id": 2,
+      "title": "Industrial Uses",
+      "description": "It’s widely used in fertilizer production and battery manufacturing.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    },
+    {
+      "id": 3,
+      "title": "King of Chemicals",
+      "description": "Sulfuric acid is often called the 'King of Chemicals' because of its vast industrial applications.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    },
+    {
+      "id": 4,
+      "title": "Dehydrating Agent",
+      "description": "It can remove water from organic compounds, turning sugar into carbon instantly.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    },
+    {
+      "id": 5,
+      "title": "Highly Exothermic Reaction",
+      "description": "Mixing sulfuric acid with water releases a large amount of heat, which can cause explosions if done improperly.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    },
+    {
+      "id": 6,
+      "title": "Essential for Petroleum Refining",
+      "description": "Sulfuric acid plays a key role in refining crude oil into gasoline and other fuels.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    },
+    {
+      "id": 7,
+      "title": "Used in Cleaning Metals",
+      "description": "It is used in metal processing to remove rust and oxidation from iron and steel.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    },
+    {
+      "id": 8,
+      "title": "Vital for Paper Industry",
+      "description": "Sulfuric acid is used in the paper-making process to help break down wood fibers.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    },
+    {
+      "id": 9,
+      "title": "Naturally Occurs in Acid Rain",
+      "description": "Small amounts of sulfuric acid are formed in the atmosphere due to sulfur dioxide emissions, contributing to acid rain.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    },
+    {
+      "id": 10,
+      "title": "Battery Acid",
+      "description": "It is the key ingredient in lead-acid batteries used in cars and backup power systems.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    }
+  ],
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What is sulfuric acid?",
+      "answer": "Sulfuric acid (H₂SO₄) is a strong mineral acid used in various industries.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    },
+    {
+      "id": 2,
+      "question": "Is it dangerous?",
+      "answer": "Yes, it’s highly corrosive and requires careful handling.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    },
+    {
+      "id": 3,
+      "question": "What is sulfuric acid used for?",
+      "answer": "It is used in battery manufacturing, fertilizer production, petroleum refining, and chemical processing.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    },
+    {
+      "id": 4,
+      "question": "Can sulfuric acid burn skin?",
+      "answer": "Yes, it causes severe burns on contact with skin and requires immediate washing with water.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    },
+    {
+      "id": 5,
+      "question": "Is sulfuric acid found in nature?",
+      "answer": "Yes, small amounts occur in acid rain and volcanic emissions.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    },
+    {
+      "id": 6,
+      "question": "How is sulfuric acid made?",
+      "answer": "It is produced by oxidizing sulfur dioxide (SO₂) to sulfur trioxide (SO₃), then dissolving it in water.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    },
+    {
+      "id": 7,
+      "question": "Why is sulfuric acid called the 'King of Chemicals'?",
+      "answer": "Because it is one of the most widely used industrial chemicals and is essential for many industries.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    },
+    {
+      "id": 8,
+      "question": "Can sulfuric acid dissolve metals?",
+      "answer": "Yes, it reacts with many metals, releasing hydrogen gas and forming metal sulfates.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    },
+    {
+      "id": 9,
+      "question": "What happens if sulfuric acid is mixed with water?",
+      "answer": "It releases a large amount of heat, which can cause splattering. Always add acid to water, not the other way around.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    },
+    {
+      "id": 10,
+      "question": "Is sulfuric acid used in medicine?",
+      "answer": "Not directly, but it is used in the production of some pharmaceuticals and chemicals for medical use.",
+      "image": "https://www.ambatraders.com/wp-content/uploads/2015/02/Sulphuric-acid.png"
+    }
+  ]
+}
